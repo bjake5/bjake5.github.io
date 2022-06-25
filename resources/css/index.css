@@ -5,10 +5,12 @@
 }
 
 header {
-  background-color: #738678;
   margin: 0px auto;
-  padding: 20px;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
   text-align: center;
+  background-color: none;
 
 }
 
@@ -23,17 +25,28 @@ h1 {
   color: white;
 }
 
-img {
-  margin: 0px auto;
-  width: 500px;
-  height: auto;
+#landing-photos img {
+  width: 100%;
+  height: 100%;
 }
 
 nav li {
   display: inline-block;
-  padding: 30px;
+  padding: 20px;
 }
 
-a {
-  color: white;
+nav button {
+  background-color: #242f44;
+  border: 1px solid #242f44; 
+  padding: 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #738678;
+  border: 0px;
+  padding: 21px;
+  text-decoration: underline #242f44;
 }
