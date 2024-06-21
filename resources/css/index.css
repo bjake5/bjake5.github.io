@@ -62,7 +62,6 @@ nav button:hover {
   border-radius: 25px;
   flex-direction: column;
   flex: 1;
-  max-width: 25%;
 }
 
 .project-spotlight-title {
@@ -71,8 +70,6 @@ nav button:hover {
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid white;
-  height: 30%;
-  max-height: 30%;
 }
 
 .project-spotlight-description {
@@ -80,13 +77,10 @@ nav button:hover {
   flex: 1;
   justify-content: center;
   align-items: center;
-  height: 70%;
-  max-height: 70%;
 }
 
 .project-spotlight-image {
   flex: 1;
-  max-width: 75%;
 }
 
 .project-spotlight-image img {
