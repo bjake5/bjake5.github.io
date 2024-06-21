@@ -44,6 +44,7 @@ nav button:hover {
 
 .project-list {
   display: flex;
+  flex-direction: column;
   max-width: 100%;
 }
 
@@ -52,10 +53,13 @@ nav button:hover {
   max-width: 100%;
   border: 2px solid white;
   border-radius: 25px;
+  margin: 10px;
 }
 
 .project-spotlight-content {
   display: flex;
+  border: 2px solid white;
+  border-radius: 25px;
   flex-direction: column;
   flex: 1;
   max-width: 25%;
@@ -76,7 +80,6 @@ nav button:hover {
   flex: 1;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid white;
   height: 70%;
   max-height: 70%;
 }
