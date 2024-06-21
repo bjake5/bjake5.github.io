@@ -12,7 +12,7 @@ body {
 
 h1 {
   color: white;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 a {
@@ -23,13 +23,13 @@ a {
 
 nav li {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
 }
 
 button {
   background-color: #242f44;
   border: 1px solid #242f44; 
-  padding: 20px;
+  padding: 5px;
   border-radius: 40px;
   text-decoration: none;
   cursor: pointer;
@@ -38,7 +38,7 @@ button {
 button:hover {
   background-color: #738678;
   border: 0px;
-  padding: 21px;
+  padding: 6px;
   text-decoration: underline #242f44;
 }
 
@@ -53,13 +53,13 @@ button:hover {
   max-width: 100%;
   margin-bottom: 10px;
   border: 2px solid white;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .project-spotlight-content {
   display: flex;
   border-right: 2px solid white;
-  border-radius: 10px;
+  border-radius: 5px;
   flex-direction: column;
   flex: 1;
 }
@@ -70,8 +70,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid white;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 5px;
+  padding: 0px;
 }
 
 .project-spotlight-description {
@@ -79,7 +79,7 @@ button:hover {
   flex: 1;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 .project-spotlight-image {
@@ -91,6 +91,6 @@ button:hover {
 
 .project-spotlight-image img {
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   object-fit: contain;
 }
