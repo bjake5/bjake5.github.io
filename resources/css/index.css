@@ -51,17 +51,16 @@ nav button:hover {
 .project-spotlight {
   display: flex;
   max-width: 100%;
-  border: 2px solid white;
-  border-radius: 25px;
   margin: 10px;
 }
 
 .project-spotlight-content {
   display: flex;
   border: 2px solid white;
-  border-radius: 25px;
+  border-radius: 10px;
   flex-direction: column;
   flex: 1;
+  max-width: 25%
 }
 
 .project-spotlight-title {
@@ -90,6 +89,6 @@ nav button:hover {
 
 .project-spotlight-image img {
   max-width: 100%;
-  border-radius: 25px;
+  border-radius: 10px;
   object-fit: contain;
 }
