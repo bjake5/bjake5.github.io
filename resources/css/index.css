@@ -70,6 +70,7 @@ nav button:hover {
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid white;
+  padding: 10px;
 }
 
 .project-spotlight-description {
@@ -77,10 +78,14 @@ nav button:hover {
   flex: 1;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .project-spotlight-image {
+  display: flex;
   flex: 1;
+  padding: 0px;
+  align-items: center;
 }
 
 .project-spotlight-image img {
