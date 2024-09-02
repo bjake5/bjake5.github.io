@@ -105,3 +105,14 @@ button:hover {
   max-width: 100%;
   object-fit: contain;
 }
+
+#page-title {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #738678;
+  border: 0px;
+  padding: 20px;
+  font-size: 50px;
+}
