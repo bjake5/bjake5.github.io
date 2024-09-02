@@ -115,4 +115,6 @@ button:hover {
   border: 0px;
   padding: 20px;
   font-size: 50px;
+  border: 2px solid white;
+  border-radius: 5px;
 }
