@@ -14,7 +14,7 @@ body {
 
 h1 {
   color: white;
-  font-size: 40px;
+  font-size: 3.2vw;
 }
 
 h2 {
@@ -25,8 +25,8 @@ h2 {
 
 nav li {
   display: inline-block;
-  padding: 10px;
-  margin: 30px;
+  padding: 1%;
+  margin: 2%;
 }
 
 a[target=_blank]::after {
@@ -66,8 +66,6 @@ button:hover {
 
 .project-spotlight-content {
   display: flex;
-  border-right: 2px solid white;
-  border-radius: 5px;
   flex-direction: column;
   flex: 1;
 }
@@ -79,15 +77,21 @@ button:hover {
   align-items: center;
   border-bottom: 2px solid white;
   border-radius: 5px;
-  padding: 20px;
+  padding: 2%;
 }
 
 .project-spotlight-description {
   display: flex;
   flex: 1;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  font-size: 1.5vw;
+  padding: 2%;
+}
+
+.project-spotlight-description p {
+  padding: .5vw;
 }
 
 .project-spotlight-image {
@@ -114,7 +118,7 @@ button:hover {
   background-color: #738678;
   border: 0px;
   padding: 20px;
-  font-size: 50px;
+  font-size: 3.2vw;
   border: 2px solid white;
   border-radius: 5px;
 }
