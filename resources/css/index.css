@@ -49,6 +49,10 @@ button:hover {
   text-decoration: underline #242f44;
 }
 
+div li {
+  margin-left: 2.5vw;
+}
+
 #about-me-photos {
   display: flex;
   width: 100%;
@@ -59,9 +63,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  flex-basis: 40%;
   flex: 1;
-  max-width: 45%;
-  max-height: 45%;
 }
 #about-me-photos div * {
   display: flex;
@@ -109,16 +112,32 @@ button:hover {
   justify-content: left;
   align-items: left;
   font-size: 1.8vw;
-  padding: 2%;
+  padding: 1.5vw;
+}
+
+.project-spotlight-description ul {
+  margin-left: 1vw;
+}
+
+.project-spotlight-description li {
+  padding-top: 1vw;
 }
 
 .project-spotlight-description p {
-  padding: .5vw;
+  font-weight: bolder;
+  font-size: 2vw;
+}
+
+.project-spotlight-images {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
 }
 
 .project-spotlight-image {
   flex: 1;
-  padding: 0px;
+  padding: 5px;
   align-items: center;
 }
 
